@@ -1,0 +1,80 @@
+{
+  "bench_job_id": "job_bench_1790411979",
+  "video_duration_sec": 26.01,
+  "total_frames": 747,
+  "raw_face_detections": 753,
+  "face_tracks": 5,
+  "distinct_people": 4,
+  "selected_person": "Person 03 (person3)",
+  "selected_tracks": [
+    4,
+    0
+  ],
+  "num_target_segments": 2,
+  "total_av_mossformer2_time_sec": 355.044,
+  "total_pipeline_time_sec": 407.879,
+  "stage_timings_sec": {
+    "1. Video upload/save": 0.012,
+    "2. Audio extraction": 0.357,
+    "3. Face detection": 47.655,
+    "4. Face tracking": 0.045,
+    "5. Speaker clustering": 1.442,
+    "6. Speaker analysis/metadata": 0.003,
+    "7. Target speaker selection": 0.0,
+    "8. AV-MossFormer2 inference": 355.044,
+    "9. Segment combination/reconstruction": 0.008,
+    "10. WAV output": 0.016
+  },
+  "timestamps": {
+    "1. Video upload/save": {
+      "start": "09:49:14.800",
+      "end": "09:49:14.812",
+      "duration_sec": 0.012
+    },
+    "2. Audio extraction": {
+      "start": "09:49:14.812",
+      "end": "09:49:15.170",
+      "duration_sec": 0.357
+    },
+    "3. Face detection": {
+      "start": "09:49:18.462",
+      "end": "09:50:06.118",
+      "duration_sec": 47.655
+    },
+    "4. Face tracking": {
+      "start": "09:50:06.120",
+      "end": "09:50:06.165",
+      "duration_sec": 0.045
+    },
+    "5. Speaker clustering": {
+      "start": "09:50:06.165",
+      "end": "09:50:07.607",
+      "duration_sec": 1.442
+    },
+    "6. Speaker analysis/metadata": {
+      "start": "09:50:07.607",
+      "end": "09:50:07.611",
+      "duration_sec": 0.003
+    },
+    "7. Target speaker selection": {
+      "start": "09:50:07.611",
+      "end": "09:50:07.611",
+      "duration_sec": 0.0
+    },
+    "8. AV-MossFormer2 inference": {
+      "start": "09:50:07.611",
+      "end": "09:56:02.655",
+      "duration_sec": 355.044
+    },
+    "9. Segment combination/reconstruction": {
+      "start": "09:56:02.655",
+      "end": "09:56:02.663",
+      "duration_sec": 0.008
+    },
+    "10. WAV output": {
+      "start": "09:56:02.663",
+      "end": "09:56:02.679",
+      "duration_sec": 0.016
+    }
+  }
+}
